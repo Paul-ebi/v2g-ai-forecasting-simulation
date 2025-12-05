@@ -11,7 +11,9 @@ It demonstrates:
 ✔ EV availability forecasting (Seq2Seq)
 ✔ MATLAB/Simulink V2G system model
 ✔ Optimization layer (Genetic Algorithm & RL)
+
 📌 Repository Structure
+
 Folder	Description
 /forecasting	LSTM and Seq2Seq models for load, PV, EV availability
 /simulation/matlab	MATLAB/Simulink physical system models
