@@ -1,0 +1,29 @@
+title: "V2G AI Forecasting & Simulation"
+description: "Research repository for LSTM forecasting, PV modeling, EV availability, and MATLAB simulation."
+theme: jekyll-theme-slate
+
+markdown: kramdown
+highlighter: rouge
+
+# Exclude unnecessary folders from site generation
+exclude:
+  - README.md
+  - venv/
+  - data/
+  - notebooks/
+  - .gitignore
+
+# Navigation links (optional)
+nav:
+  - name: "Home"
+    link: index.md
+  - name: "Load Forecasting"
+    link: load_forecasting.md
+  - name: "PV & EV Forecasting"
+    link: pv_ev_forecasting.md
+  - name: "MATLAB Simulation"
+    link: matlab_simulation.md
+  - name: "Optimization"
+    link: optimization.md
+  - name: "Documentation"
+    link: documentation.md
